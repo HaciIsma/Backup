@@ -8,17 +8,21 @@ namespace Backup
 {
     class ExternalHDD : Storage
     {
-        public override decimal Capasity()
+        public override string mediaName => throw new NotImplementedException();
+
+        public override string model => throw new NotImplementedException();
+
+        public override double Capasity()
         {
             throw new NotImplementedException();
         }
 
-        public override void Copy()
+        public override void Copy(double dataSize)
         {
             throw new NotImplementedException();
         }
 
-        public override decimal FreeMemory()
+        public override double FreeMemory()
         {
             throw new NotImplementedException();
         }

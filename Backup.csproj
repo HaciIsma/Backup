@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller.cs" />
+    <Compile Include="Model\Data.cs" />
     <Compile Include="Model\Storages\DVD.cs" />
     <Compile Include="Model\Storages\ExternalHDD.cs" />
     <Compile Include="Model\Storages\Flash.cs" />

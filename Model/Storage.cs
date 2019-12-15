@@ -8,11 +8,11 @@ namespace Backup
 {
     abstract class Storage
     {
-        public string mediaName { get; set; }
-        public string model { get; set; }
-        public abstract void Copy();
-        public abstract decimal Capasity();
-        public abstract decimal FreeMemory();
+        public abstract string mediaName { get;  }
+        public abstract string model { get;  }
+        public abstract void Copy(double dataSize);
+        public abstract double Capasity();
+        public abstract double FreeMemory();
         public abstract void PrintDeviceİnfo();
     }
 }

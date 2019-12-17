@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Backup
 {
@@ -64,7 +60,7 @@ namespace Backup
         double freeMemory = default(double);
         double wRSpeed = 1.32; //mbit/s
 
-        public override string mediaName { get => "DVD";  }
+        public override string mediaName { get => "DVD"; }
         public override string model { get => (capasity == 4.7) ? "SingleSayt" : "DoubleSayt"; }
     }
 }

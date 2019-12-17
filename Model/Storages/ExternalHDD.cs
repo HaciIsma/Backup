@@ -8,7 +8,7 @@ namespace Backup
 {
     class ExternalHDD : Storage
     {
-        public override string mediaName => throw new NotImplementedException();
+        public override string mediaName => "ExternalHDD";
 
         public override string model => throw new NotImplementedException();
 

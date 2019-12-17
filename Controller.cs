@@ -1,9 +1,5 @@
 ﻿using Backup.Model;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Backup
 {
@@ -16,8 +12,9 @@ namespace Backup
             DVD abs = new DVD(DVD.DVDType.SingleSayt);
             abs.Capasity();
             abs.Copy(a.Size);
-            abs.FreeMemory();
+            var free = abs.FreeMemory();
             abs.PrintDeviceİnfo();
+            Console.WriteLine($"Free : {free}");
         }
     }
 }

@@ -11,8 +11,15 @@ namespace Backup
         }
         public DVD(DVDType type)
         {
-            if (type == DVDType.SingleSayt) { capasity = 4.7; }
-            else if (type == DVDType.DoubleSayt) { capasity = 9; }
+            switch (type)
+            {
+                case DVDType.SingleSayt:
+                    capasity = 4.7;
+                    break;
+                case DVDType.DoubleSayt:
+                    capasity = 9;
+                    break;
+            }
         }
 
         public override double Capasity()
@@ -50,14 +57,15 @@ namespace Backup
 
         public override void PrintDeviceİnfo()
         {
-            Console.WriteLine("DVD");
+            Console.WriteLine($"Media name: {mediaName}");
+            Console.WriteLine($"Model : {model}");
             Console.WriteLine($"Capasity: {capasity}");
             Console.WriteLine($"Write/Read speed: {wRSpeed}");
         }
 
-        double capasity = default(double);
-        int dvdSize = default(int);
-        double freeMemory = default(double);
+        double capasity = default;
+        int dvdSize = default;
+        double freeMemory = default;
         double wRSpeed = 1.32; //mbit/s
 
         public override string mediaName { get => "DVD"; }

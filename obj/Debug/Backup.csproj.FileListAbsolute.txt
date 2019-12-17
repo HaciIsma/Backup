@@ -4,3 +4,6 @@ C:\Users\Haci\source\repos\Backup\Backup\bin\Debug\Backup.pdb
 C:\Users\Haci\source\repos\Backup\Backup\obj\Debug\Backup.csprojAssemblyReference.cache
 C:\Users\Haci\source\repos\Backup\Backup\obj\Debug\Backup.exe
 C:\Users\Haci\source\repos\Backup\Backup\obj\Debug\Backup.pdb
+C:\Users\Haci\source\repos\Backup\Backup\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Haci\source\repos\Backup\Backup\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Haci\source\repos\Backup\Backup\obj\Debug\Backup.csproj.CopyComplete

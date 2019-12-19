@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Backup
 {
@@ -14,7 +10,7 @@ namespace Backup
             RPM5400 = 75, RPM7200 = 100, RPM10000 = 140
         }
 
-        ExternalHDD(ExternalHDDType type,int capasity)
+        ExternalHDD(ExternalHDDType type, int capasity)
         {
             switch (type)
             {

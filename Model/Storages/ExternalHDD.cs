@@ -7,7 +7,7 @@ namespace Backup
     {
         enum ExternalHDDType
         {
-            RPM5400 = 75, RPM7200 = 100, RPM10000 = 140
+            RPM5400 , RPM7200 , RPM10000
         }
 
         ExternalHDD(ExternalHDDType type, int capasity)

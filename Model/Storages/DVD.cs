@@ -7,7 +7,7 @@ namespace Backup
     {
         public enum DVDType
         {
-            SingleSayt = 0, DoubleSayt
+            SingleSayt , DoubleSayt
         }
         public DVD(DVDType type)
         {

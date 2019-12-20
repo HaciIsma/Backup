@@ -46,14 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller.cs" />
-    <Compile Include="Model\Data.cs" />
-    <Compile Include="Model\Storages\DVD.cs" />
-    <Compile Include="Model\Storages\ExternalHDD.cs" />
-    <Compile Include="Model\Storages\Flash.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Application\Controller.cs" />
+    <Compile Include="Application\Menu.cs" />
+    <Compile Include="Application\Model\Data.cs" />
+    <Compile Include="Application\Model\Storages\DVD.cs" />
+    <Compile Include="Application\Model\Storages\ExternalHDD.cs" />
+    <Compile Include="Application\Model\Storages\Flash.cs" />
+    <Compile Include="Application\Program.cs" />
+    <Compile Include="Git.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Storage.cs" />
+    <Compile Include="Application\Model\Storage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

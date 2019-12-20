@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Application\Controller.cs" />
-    <Compile Include="Application\Menu.cs" />
     <Compile Include="Application\Model\Data.cs" />
     <Compile Include="Application\Model\Storages\DVD.cs" />
     <Compile Include="Application\Model\Storages\ExternalHDD.cs" />

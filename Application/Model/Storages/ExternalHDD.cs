@@ -5,12 +5,12 @@ namespace Backup
 {
     class ExternalHDD : Storage
     {
-        enum ExternalHDDType
+        public enum ExternalHDDType
         {
-            RPM5400 , RPM7200 , RPM10000
+            RPM5400, RPM7200, RPM10000
         }
 
-        ExternalHDD(ExternalHDDType type, int capasity)
+        public ExternalHDD(ExternalHDDType type, int capasity)
         {
             switch (type)
             {

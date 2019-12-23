@@ -32,13 +32,20 @@ namespace Backup
                                 case 2:
                                     dvd = new DVD(DVD.DVDType.DoubleSayt);
                                     break;
-                                default:
-                                    break;
                             }
                         }
                         break;
                     case 2:
-                        ExternalHDD externalHDD = new ExternalHDD(ExternalHDD.ExternalHDDType.RPM7200, 500);
+                        ExternalHDD externalHDD = null;
+                        switch (input)
+                        {
+                            case 1:
+                                break;
+                            case 2:
+                                break;
+                            case 3:
+                                break;
+                        }
                         break;
                     case 3:
                         Flash flash = new Flash(Flash.FlashType.f30, 500);
